@@ -2,6 +2,9 @@
 - Representing words with balancing between context and character information
 - We train how much contextual information and character information to use
 ## 1. Model 
+- The model consists of a transformer that learns contextual information and a feed-forward-network that learns character information
+- The figure below is a structure of the model
+- The model learns how much to focus on between contextual information and character information by using sigmoid gate
 ![alt_text](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/master/images/model.png "Model")
 
 ![alt_text](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/master/images/equation.png "Equation")
