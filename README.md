@@ -6,6 +6,7 @@
 ```
 $ git clone https://github.com/MSWon/Context-Char-Transformer-Encoder.git
 $ cd Context-Char-Transformer-Encoder
+$ pip install -r requirements.txt
 $ python setup.py install
 ```
 
