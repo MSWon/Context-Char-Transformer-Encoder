@@ -1,5 +1,5 @@
 # CCTE
-- **ontext Char Transformer Encoder**
+- **Context Char Transformer Encoder**
 ![alt text](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/master/images/CCTE.png "Model")
 
 
