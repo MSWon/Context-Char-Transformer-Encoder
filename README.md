@@ -40,5 +40,5 @@ $ python ner_train.py -c ner_config.yaml
 - Infer on test data
 
 ```
-$ python ner_infer.py -c ner_config.yaml -i wnut17/test_org.txt
+$ python ner_infer.py -c ner_config.yaml -i CoNLL/test_org.txt
 ```
