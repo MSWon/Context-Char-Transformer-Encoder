@@ -22,10 +22,12 @@ $ python main.py -c config.yaml
 ## 3. Downstream task (NER)
 
 - Download pretrained model
-  ```
-  $ cd CCTE
-  $ sh download_data.sh
-  ```
+
+```
+$ cd CCTE
+$ sh download_data.sh
+```
+
 - Fine-tune with [ner_config.yaml](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/master/CCTE/ner_config.yaml) file
 
 ```
