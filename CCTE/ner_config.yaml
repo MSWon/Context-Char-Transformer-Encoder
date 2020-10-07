@@ -17,7 +17,7 @@ char_vocab_path: data/char.en.vocab
 max_word_len: 150
 max_char_len: 50
 batch_size: 32
-data_path: CoNLL
+data_path: CoNLL # (CoNLL, wnut17, bio_ner)
 pretrained_model_path: saved_model/char_electra.model
 training_epochs: 3
 train_type: org
