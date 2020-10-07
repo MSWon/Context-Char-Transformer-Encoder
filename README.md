@@ -13,7 +13,7 @@ $ python setup.py install
 
 - Download 1-billion-word benchmark data
 - `config.yaml`
-  ```python
+  ```
   # Generator
   G_num_layers: 6
   G_num_heads: 4
@@ -68,7 +68,7 @@ $ python main.py -c config.yaml
 
 - Download pretrained model
 - `ner_config.yaml`
-  ```python
+  ```
   # Discriminator
   D_num_layers: 6
   D_num_heads: 8
