@@ -32,5 +32,12 @@ $ sh download_data.sh
 
 ```
 $ cd CCTE
-$ python main.py -c config.yaml
+$ python ner_train.py -c ner_config.yaml
+```
+
+- Infer on test data
+
+```
+$ cd CCTE
+$ python ner_infer.py -c ner_config.yaml -i wnut17/test_org.txt
 ```
