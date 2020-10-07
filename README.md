@@ -41,9 +41,9 @@ $ python setup.py install
   D_weight: 50.0
   temperature: 1.0
   # data config
-  corpus_path: data2/train.norm.replaced.tok.en
-  word_vocab_path: data2/bpe.en.vocab
-  char_vocab_path: data2/char.en.vocab
+  corpus_path: data/train.tok.en
+  word_vocab_path: data/bpe.en.vocab
+  char_vocab_path: data/char.en.vocab
   model_path: char_electra.model
   # training config
   max_word_len: 150
