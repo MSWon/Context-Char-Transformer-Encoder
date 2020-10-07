@@ -7,7 +7,7 @@ from seqeval.metrics import f1_score, recall_score, precision_score, classificat
 from .model_utils import build_graph, restore, _get_layer_lrs, AdamWeightDecayOptimizer, LayerNormalization
 from .data_utils import Data
 
-os.environ['CUDA_VISIBLE_DEVICES'] = "7"
+os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 config = tf.ConfigProto()
 config.gpu_options.allow_growth = True
 
