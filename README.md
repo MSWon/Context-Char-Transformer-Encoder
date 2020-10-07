@@ -28,7 +28,7 @@ $ cd CCTE
 $ sh download_data.sh
 ```
 
-- Fine-tune with [ner_config.yaml](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/master/CCTE/ner_config.yaml) file
+- Fine-tune with [ner_config.yaml](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/master/CCTE/ner_config.yaml) file on dev data
 
 ```
 $ cd CCTE
