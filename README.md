@@ -34,13 +34,11 @@ $ sh download_model.sh
 - Fine-tune with [ner_config.yaml](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/master/CCTE/ner_config.yaml) file on dev data
 
 ```
-$ cd CCTE
 $ python ner_train.py -c ner_config.yaml
 ```
 
 - Infer on test data
 
 ```
-$ cd CCTE
 $ python ner_infer.py -c ner_config.yaml -i wnut17/test_org.txt
 ```
