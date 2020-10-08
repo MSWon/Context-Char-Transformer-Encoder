@@ -6,17 +6,17 @@
 - The figure below is a structure of the 1 encoder of our model
 - The model learns how much to focus on between contextual information and character information by using gate
 
-![alt_text](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/end-to-end/master/images/model.png "Model")
+![alt_text](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/end-to-end/images/model.png "Model")
 
-![alt_text](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/end-to-end/master/images/equation.png "Equation")
+![alt_text](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/end-to-end/images/equation.png "Equation")
 
 ## 2. Experiments
 - We have tested on 4 tasks and the results show that our proposed model converges faster compared to word, char level transformers
 ### 2-1. Named-Entity-Recognition 
-![alt_text](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/end-to-end/master/images/ner_task.png "NER")
+![alt_text](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/end-to-end/images/ner_task.png "NER")
 ### 2-2. Part-Of-Speech Tagging
-![alt_text](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/end-to-end/master/images/pos_task.png "POS Tagging")
+![alt_text](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/end-to-end/images/pos_task.png "POS Tagging")
 ### 2-3. AG's news text classification
-![alt_text](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/end-to-end/master/images/classification_task.png "Classification")
+![alt_text](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/end-to-end/images/classification_task.png "Classification")
 ### 2-4. Vietnamese to English
-![alt_text](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/end-to-end/master/images/translation_task.png "Translation")
+![alt_text](https://github.com/MSWon/Context-Char-Transformer-Encoder/blob/end-to-end/images/translation_task.png "Translation")
